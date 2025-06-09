@@ -1,10 +1,10 @@
 from pdf2docx import Converter
 
 # Ruta al archivo PDF de entrada
-archivo_pdf = 'entrada.pdf'
+archivo_pdf = 'examen.pdf'
 
 # Ruta al archivo DOCX de salida
-archivo_word = 'salida.docx'
+archivo_word = 'examendoc.docx'
 
 # Crear el convertidor
 cv = Converter(archivo_pdf)
